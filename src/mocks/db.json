@@ -1,0 +1,174 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "from": "Moscow",
+      "to": "New York",
+      "company": "Победа",
+      "price": 10000,
+      "currency": "RUB",
+      "time": {
+        "startTime": "2024-06-01T08:00",
+        "endTime": "2024-06-01T16:00"
+      },
+      "duration": 480,
+      "date": "2024-06-01",
+      "connectionAmount": 0,
+      "img": "win.png",
+      "transplants": "Без пересадок"
+    },
+    {
+      "id": 2,
+      "from": "Moscow",
+      "to": "London",
+      "company": "Победа",
+      "price": 20000,
+      "currency": "RUB",
+      "time": {
+        "startTime": "2024-06-02T09:00",
+        "endTime": "2024-06-02T12:00"
+      },
+      "duration": 180,
+      "date": "2024-06-02",
+      "connectionAmount": 0,
+      "img": "win.png",
+      "transplants": "Без пересадок"
+    },
+    {
+      "id": 3,
+      "from": "Moscow",
+      "to": "Berlin",
+      "company": "S7 Airlines",
+      "price": 30000,
+      "currency": "RUB",
+      "time": {
+        "startTime": "2024-06-03T10:00",
+        "endTime": "2024-06-03T14:00"
+      },
+      "duration": 240,
+      "date": "2024-06-03",
+      "connectionAmount": 1,
+      "img": "7.png",
+      "transplants": "1 пересадка"
+    },
+    {
+      "id": 4,
+      "from": "Moscow",
+      "to": "Paris",
+      "company": "S7 Airlines",
+      "price": 40000,
+      "currency": "RUB",
+      "time": {
+        "startTime": "2024-06-04T11:00",
+        "endTime": "2024-06-04T15:00"
+      },
+      "duration": 240,
+      "date": "2024-06-04",
+      "connectionAmount": 2,
+      "img": "7.png",
+      "transplants": "2 пересадки"
+    },
+    {
+      "id": 5,
+      "from": "Moscow",
+      "to": "Tokyo",
+      "company": "Red Wings",
+      "price": 50000,
+      "currency": "RUB",
+      "time": {
+        "startTime": "2024-06-05T12:00",
+        "endTime": "2024-06-05T20:00"
+      },
+      "duration": 480,
+      "date": "2024-06-05",
+      "connectionAmount": 0,
+      "img": "red.png",
+      "transplants": "Без пересадок"
+    },
+    {
+      "id": 6,
+      "from": "Moscow",
+      "to": "Dubai",
+      "company": "Red Wings",
+      "price": 60000,
+      "currency": "RUB",
+      "time": {
+        "startTime": "2024-06-06T13:00",
+        "endTime": "2024-06-06T19:00"
+      },
+      "duration": 360,
+      "date": "2024-06-06",
+      "connectionAmount": 1,
+      "img": "red.png",
+      "transplants": "1 пересадка"
+    },
+    {
+      "id": 7,
+      "from": "Moscow",
+      "to": "Bangkok",
+      "company": "Победа",
+      "price": 70000,
+      "currency": "RUB",
+      "time": {
+        "startTime": "2024-06-07T14:00",
+        "endTime": "2024-06-07T22:00"
+      },
+      "duration": 480,
+      "date": "2024-06-07",
+      "connectionAmount": 0,
+      "img": "win.png",
+      "transplants": "Без пересадок"
+    },
+    {
+      "id": 8,
+      "from": "Moscow",
+      "to": "Sydney",
+      "company": "Победа",
+      "price": 80000,
+      "currency": "RUB",
+      "time": {
+        "startTime": "2024-06-08T15:00",
+        "endTime": "2024-06-09T03:00"
+      },
+      "duration": 720,
+      "date": "2024-06-08",
+      "connectionAmount": 2,
+      "img": "win.png",
+      "transplants": "2 пересадки"
+    },
+    {
+      "id": 9,
+      "from": "Moscow",
+      "to": "Rome",
+      "company": "Победа",
+      "price": 90000,
+      "currency": "RUB",
+      "time": {
+        "startTime": "2024-06-09T16:00",
+        "endTime": "2024-06-09T20:00"
+      },
+      "duration": 240,
+      "date": "2024-06-09",
+      "connectionAmount": 1,
+      "img": "win.png",
+      "transplants": "1 пересадка"
+    },
+    {
+      "id": 10,
+      "from": "M",
+      "to": "Madrid",
+      "company": "Победа",
+      "price": 100000,
+      "currency": "RUB",
+      "time": {
+        "startTime": "2024-06-10T17:00",
+        "endTime": "2024-06-10T21:00"
+      },
+      "duration": 240,
+      "date": "2024-06-10",
+      "connectionAmount": 1,
+      "img": "win.png",
+      "transplants": "1 пересадка"
+    }
+  ]
+}

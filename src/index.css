@@ -1,0 +1,183 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #535bf2;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+    padding: 84px 250px;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+.app {
+    display: flex;
+}
+
+.tickets, .filters {
+    flex: 1 auto;
+    margin: 0 50px 0 0;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+header span {
+    font-size: 25px;
+    color: #4E148C;
+    padding-left: 20px;
+    font-weight: 700;
+    vertical-align: text-bottom;
+    line-height: 80px;
+}
+
+.sort {
+    display: flex;
+    width: 100%;
+    background: #E8EBF2;
+    border: 1px solid #4E148C;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.sort button {
+    color: #4E148C;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    padding: 18px 50px;
+    font-size: 16px;
+}
+
+.sort button:hover {
+    color: #fff;
+    background: #4E148C;
+
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.filter {
+    max-width: 260px;
+}
+
+.filter {
+    padding: 20px;
+    background: #E8EBF2;
+    border-radius: 5px;
+    color: #4E148C;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+
+.filter label {
+    display: block;
+    color: #858AE3;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.filter label input {
+    margin-right: 20px;
+}
+
+button.more {
+    margin-top: 50px;
+    background: #4E148C;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px;
+    font-size: 24px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.ticket {
+    background: #E8EBF2;
+    border-bottom: 5px;
+    padding: 30px;
+    margin-bottom: 50px;
+
+}
+
+.ticket {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.price {
+    font-size: 32px;
+    color: #4E148C;
+    font-weight: 700;
+}
+
+.ticket img {
+    max-width: 150px;
+}
+
+.color1 {
+    color: #858AE3;
+
+}
+
+.color2 {
+    color: #4E148C;
+
+}
+
+
+@media (max-device-width: 768px) {
+    body {
+        padding: 35px;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    header span {
+        display: none;
+
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .tickets, .filters {
+        margin: 0 35px 0 0;
+    }
+}
+
+@media (max-device-width: 426px) {
+    body {
+        padding: 10px;
+    }
+
+    .tickets, .filters {
+        margin: 0 10px 0 0;
+    }
+}
